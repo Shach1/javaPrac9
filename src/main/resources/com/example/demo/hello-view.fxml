@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="780.0" style="-fx-background-color: rgb(14, 24, 34);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <children>
+        <TextField fx:id="firstNameField" layoutX="14.0" layoutY="367.0" prefHeight="36.0" prefWidth="166.0" promptText="Имя" style="-fx-background-color: rgb(118, 118, 118);">
+            <font>
+                <Font name="Bookman Old Style" size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="lastNameField" layoutX="210.0" layoutY="367.0" prefHeight="36.0" prefWidth="166.0" promptText="Фамилия" style="-fx-background-color: rgb(118, 118, 118);">
+            <font>
+                <Font name="Bookman Old Style" size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="surNameField" layoutX="407.0" layoutY="367.0" prefHeight="36.0" prefWidth="166.0" promptText="Отчество" style="-fx-background-color: rgb(118, 118, 118);">
+            <font>
+                <Font name="Bookman Old Style" size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="scoreField" layoutX="600.0" layoutY="367.0" prefHeight="36.0" prefWidth="166.0" promptText="Кол-во баллов" style="-fx-background-color: rgb(118, 118, 118);">
+            <font>
+                <Font name="Bookman Old Style" size="16.0" />
+            </font>
+        </TextField>
+        <Button fx:id="addStudentButton" layoutX="329.0" layoutY="420.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: rgb(237, 72, 87);" text="Добавить студента" />
+        <Button fx:id="sortStudentButton" layoutX="631.0" layoutY="44.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color: rgb(237, 72, 87);" text="Отсортировать" />
+      <TextArea fx:id="listStudentsTextArea" editable="false" layoutX="16.0" layoutY="14.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="322.0" prefWidth="557.0" promptText="Список студентов пока пуст...">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="serchStrudentButton" layoutX="631.0" layoutY="139.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color: rgb(237, 72, 87);" text="Найти студента" />
+      <TextField fx:id="lastNameFieldForSerch" layoutX="600.0" layoutY="205.0" prefHeight="36.0" prefWidth="166.0" promptText="Фамилия" style="-fx-background-color: rgb(118, 118, 118);">
+         <font>
+            <Font name="Bookman Old Style" size="16.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
